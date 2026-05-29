@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Syne, DM_Sans, DM_Mono } from "next/font/google";
-import { Nav } from "@/components/layout/Nav";
+import { Nav }    from "@/components/layout/Nav";
+import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
 
 /* ── Fonts ────────────────────────────────────────────────────────────────── */
@@ -83,7 +84,7 @@ export default function RootLayout({
           {children}
         </main>
 
-        {/* <Footer /> — added in Footer build step */}
+        <Footer />
       </body>
     </html>
   );
