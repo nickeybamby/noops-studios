@@ -58,7 +58,7 @@ const NAV_LINKS = [
   { label: "Works",    href: "/works"   },
   { label: "About",    href: "/about"   },
   { label: "Blog",     href: "/blog"    },
-  { label: "Careers",  href: "/careers" },
+  // { label: "Careers",  href: "/careers" },
 ];
 
 const SERVICE_LINKS = [
@@ -70,7 +70,7 @@ const SERVICE_LINKS = [
 ];
 
 const SOCIAL_LINKS = [
-  { label: "GitHub",   href: "https://github.com/noopsstudios",   icon: <GitHubIcon />   },
+  // { label: "GitHub",   href: "https://github.com/noopsstudios",   icon: <GitHubIcon />   },
   { label: "LinkedIn", href: "https://linkedin.com/company/noops", icon: <LinkedInIcon /> },
   { label: "Twitter",  href: "https://twitter.com/noopsstudios",   icon: <TwitterIcon />  },
 ];
@@ -225,17 +225,17 @@ export function Footer() {
                            focus-visible:outline-offset-2 rounded-sm w-fit"
                 style={{ fontFamily: "var(--font-dm-sans)", fontWeight: 400 }}
               >
-                hello@noops.studio
+                hello@noops.com.ng
               </a>
               <a
-                href="tel:+15550000000"
+                href="tel:+2348033905994"
                 className="text-[14px] text-[#8b95a8] hover:text-[#f1f5f9]
                            transition-colors duration-200
                            focus-visible:outline-2 focus-visible:outline-[#4f7dff]
                            focus-visible:outline-offset-2 rounded-sm w-fit"
                 style={{ fontFamily: "var(--font-dm-sans)", fontWeight: 400 }}
               >
-                +1 (555) 000-0000
+                +234 (803) 390-5994
               </a>
 
               {/* CTA link */}
@@ -287,7 +287,7 @@ export function Footer() {
           className="text-[12px] text-[#3d4a5c]"
           style={{ fontFamily: "var(--font-dm-mono)" }}
         >
-          © {new Date().getFullYear()} NoOps Studios. All rights reserved.
+          © 2023 - {new Date().getFullYear()} NoOps Studios. All rights reserved.
         </p>
 
         <div className="flex items-center gap-5">

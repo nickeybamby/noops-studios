@@ -7,7 +7,7 @@ import { CTA }         from "@/components/sections/CTA";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Start a project with NoOps Studios. Tell us what you're building — we'll respond within 24 hours with a clear plan.",
+    "Start a project with NoOps Studios. Tell us what you're building. We'll respond within 24 hours with a clear plan.",
 };
 
 export default function ContactPage() {

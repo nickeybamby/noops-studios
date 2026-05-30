@@ -30,40 +30,40 @@ interface TeamMember {
 
 const TEAM: TeamMember[] = [
   {
-    name:     "Jordan Ellis",
+    name:     "Nicholas Wyke",
     role:     "Founder & Lead Architect",
-    bio:      "10 years building distributed systems at scale. Previously led platform engineering at a Series C fintech. Obsessed with infrastructure that just works.",
-    initials: "JE",
+    bio:      "7 years building distributed systems at scale. Previously led ERP Implementation Systems at a tech startup. Obsessed with infrastructure that just works.",
+    initials: "NW",
     gradient: "linear-gradient(135deg, #4f7dff, #7c5cfc)",
-    skills:   ["Kubernetes", "Terraform", "Go", "AWS"],
-    prev:     "ex-Stripe",
+    skills:   ["n8n", "Next.js", "TypeScript", "Flutter"],
+    prev:     "ex-ChantUp",
   },
   {
-    name:     "Priya Nair",
+    name:     "Edmond Kabowei",
     role:     "Head of AI Engineering",
     bio:      "ML engineer turned AI systems architect. Shipped RAG pipelines and LLM agents to production at three startups. Believes evals are the most underrated engineering practice.",
-    initials: "PN",
+    initials: "EK",
     gradient: "linear-gradient(135deg, #7c5cfc, #00d4aa)",
-    skills:   ["LangChain", "Python", "OpenAI", "Pinecone"],
-    prev:     "ex-Cohere",
+    skills:   ["LangChain", "Python", "OpenAI", "Zepline"],
+    prev:     "SOP",
   },
   {
-    name:     "Marcus Webb",
+    name:     "Daniel Nwankpa",
     role:     "Senior Full-Stack Engineer",
     bio:      "React and Node.js specialist with a thing for performance. Has rebuilt three legacy systems in Next.js without a single user complaint. Core Web Vitals are personal.",
-    initials: "MW",
+    initials: "DN",
     gradient: "linear-gradient(135deg, #00d4aa, #4f7dff)",
     skills:   ["Next.js", "TypeScript", "tRPC", "PostgreSQL"],
-    prev:     "ex-Vercel",
+    prev:     "avata works",
   },
   {
-    name:     "Sasha Kim",
+    name:     "MarySandra Oluebube",
     role:     "DevOps & Platform Engineer",
-    bio:      "Lives in the terminal. Cut deploy times by 80% at every company they've worked at. CI/CD philosophy: if it's not automated, it's a liability.",
-    initials: "SK",
+    bio:      "Lives in the terminal. Cut deploy times by 80% at every company She'd worked at. CI/CD philosophy: if it's not automated, it's a liability.",
+    initials: "MO",
     gradient: "linear-gradient(135deg, #4f7dff, #00d4aa)",
-    skills:   ["GitHub Actions", "Docker", "ArgoCD", "Datadog"],
-    prev:     "ex-GitHub",
+    skills:   ["GitHub Actions", "Docker", "Terraform", "Datadog"],
+    prev:     "ex-ZBM",
   },
 ];
 
@@ -251,7 +251,7 @@ export function Team() {
                          focus-visible:outline-offset-2"
               style={{ fontFamily: "var(--font-dm-sans)" }}
             >
-              careers@noops.studio →
+              careers@noops.com.ng →
             </a>
           </div>
         </div>

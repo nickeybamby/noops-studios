@@ -33,11 +33,11 @@ const SERVICES = [
 ];
 
 const BUDGETS = [
-  "< $10k",
-  "$10k – $25k",
-  "$25k – $50k",
-  "$50k – $100k",
-  "$100k+",
+  "< ₦500k",
+  "₦500k – ₦1m",
+  "₦1m – ₦5m",
+  "₦5m – ₦10m",
+  "₦10m+",
   "Ongoing retainer",
 ];
 
@@ -207,7 +207,7 @@ export function ContactForm() {
               className="text-[12px] text-[#3d4a5c]"
               style={{ fontFamily: "var(--font-dm-mono)" }}
             >
-              hello@noops.studio
+              hello@noops.com.ng
             </p>
           </div>
         </div>
@@ -456,10 +456,10 @@ export function ContactForm() {
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   <span className="text-[#4f7dff] text-[16px]">✉</span>
-                  hello@noops.studio
+                  hello@noops.com.ng
                 </a>
                 <a
-                  href="tel:+15550000000"
+                  href="tel:+2348033905994"
                   className="flex items-center gap-3 text-[14px] text-[#8b95a8]
                              hover:text-[#f1f5f9] transition-colors duration-200
                              focus-visible:outline-2 focus-visible:outline-[#4f7dff]
@@ -467,7 +467,7 @@ export function ContactForm() {
                   style={{ fontFamily: "var(--font-dm-sans)" }}
                 >
                   <span className="text-[#4f7dff] text-[16px]">☎</span>
-                  +1 (555) 000-0000
+                  +234 (803) 390 5994
                 </a>
               </div>
             </div>
@@ -495,8 +495,8 @@ export function ContactForm() {
                 style={{ fontFamily: "var(--font-dm-sans)", fontWeight: 400 }}
               >
                 We&apos;re taking on new projects starting{" "}
-                <span className="text-[#f1f5f9]">Q3 2025</span>. Reach out
-                now to secure your spot — we work with a limited number of
+                <span className="text-[#f1f5f9]">Q3 2026</span>. Reach out
+                now to secure your spot. We work with a limited number of
                 clients at a time.
               </p>
             </div>

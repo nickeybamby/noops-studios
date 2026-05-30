@@ -126,7 +126,7 @@ export function Hero() {
             style={{ fontFamily: "var(--font-dm-mono)" }}
           >
             <Zap size={11} strokeWidth={2.5} aria-hidden="true" />
-            Enterprise DevOps &amp; AI Automation
+            AI Automation &amp; AI Optimisation
           </span>
         </div>
 
@@ -134,7 +134,7 @@ export function Hero() {
         <h1 className="flex flex-col items-center gap-1 sm:gap-2">
           {/* Line 1 — delay 80ms */}
           <span
-            className={`block text-[clamp(48px,8vw,88px)] leading-none tracking-tight text-[#f1f5f9]
+            className={`block text-[clamp(40px,7vw,72px)] leading-none tracking-tight text-[#f1f5f9]
                         ${visible ? base : "opacity-0"}`}
             style={{
               fontFamily: "var(--font-syne)",
@@ -147,7 +147,7 @@ export function Hero() {
 
           {/* Line 2 — gradient — delay 160ms */}
           <span
-            className={`block text-[clamp(48px,8vw,88px)] leading-none tracking-tight gradient-text
+            className={`block text-[clamp(40px,7vw,72px)] leading-none tracking-tight gradient-text
                         ${visible ? base : "opacity-0"}`}
             style={{
               fontFamily: "var(--font-syne)",
@@ -160,7 +160,7 @@ export function Hero() {
 
           {/* Line 3 — delay 240ms */}
           <span
-            className={`block text-[clamp(48px,8vw,88px)] leading-none tracking-tight text-[#f1f5f9]
+            className={`block text-[clamp(40px,7vw,72px)] leading-none tracking-tight text-[#f1f5f9]
                         ${visible ? base : "opacity-0"}`}
             style={{
               fontFamily: "var(--font-syne)",
@@ -182,7 +182,7 @@ export function Hero() {
             animationDelay: "340ms",
           }}
         >
-          NoOps Studios automates your DevOps, cloud, and AI pipelines
+          NoOps Studios automates your Workflow and AI pipelines
           so your team ships faster without the overhead.
         </p>
 
@@ -235,7 +235,7 @@ export function Hero() {
             className="text-[11px] uppercase tracking-[0.2em] text-[#3d4a5c]"
             style={{ fontFamily: "var(--font-dm-mono)" }}
           >
-            Trusted by engineers at
+            Trusted by engineers
           </p>
           <div
             className="flex flex-wrap items-center justify-center gap-6 sm:gap-8"

@@ -113,8 +113,8 @@ function StatItem({
 
 const STATS = [
   {
-    value:        "50+",
-    numericValue: 50,
+    value:        "30+",
+    numericValue: 30,
     suffix:       "+",
     label:        "Projects shipped",
     sublabel:     "Across 12 industries",
@@ -137,7 +137,7 @@ const STATS = [
     accent:       "#7c5cfc",
   },
   {
-    value:        "8min",
+    value:        "15min",
     numericValue: 8,
     suffix:       "min",
     label:        "Average deploy time",

@@ -36,13 +36,13 @@ export const metadata: Metadata = {
   description:
     "NoOps Studios automates your DevOps, cloud, and AI pipelines so your team ships faster without the overhead.",
   keywords: ["DevOps", "CI/CD", "Cloud Infrastructure", "AI Automation", "Next.js", "Tech Agency"],
-  authors: [{ name: "NoOps Studios", url: "https://noops.studio" }],
+  authors: [{ name: "NoOps Studios", url: "https://noops.com.ng" }],
   creator: "NoOps Studios",
-  metadataBase: new URL("https://noops.studio"),
+  metadataBase: new URL("https://noops.com.ng"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://noops.studio",
+    url: "https://noops.com.ng",
     siteName: "NoOps Studios",
     title: "NoOps Studios — Premium Tech Agency",
     description: "We automate what slows you down. Enterprise DevOps, cloud, and AI pipelines.",

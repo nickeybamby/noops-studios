@@ -85,7 +85,7 @@ export function ContactHero() {
             }}
           >
             Tell us about your project. We&apos;ll respond within 24 hours
-            with a clear plan — not a sales pitch.
+            with a clear plan, not a sales pitch.
           </p>
         </div>
       </div>
