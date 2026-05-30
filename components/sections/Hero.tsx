@@ -142,7 +142,7 @@ export function Hero() {
               animationDelay: "80ms",
             }}
           >
-            We Build the
+            We ship the
           </span>
 
           {/* Line 2 — gradient — delay 160ms */}
@@ -155,7 +155,7 @@ export function Hero() {
               animationDelay: "160ms",
             }}
           >
-            Infrastructure
+            Systems
           </span>
 
           {/* Line 3 — delay 240ms */}
@@ -168,7 +168,7 @@ export function Hero() {
               animationDelay: "240ms",
             }}
           >
-            That Ships.
+            that scale.
           </span>
         </h1>
 
