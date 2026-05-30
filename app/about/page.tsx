@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
+import { AboutHero } from "@/components/sections/about/AboutHero";
+import { Mission }   from "@/components/sections/about/Mission";
+import { Team }      from "@/components/sections/about/Team";
+import { Stats }     from "@/components/sections/about/Stats";
+import { CTA }       from "@/components/sections/CTA";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Team, mission, values, and the stats behind NoOps Studios.",
+  description:
+    "NoOps Studios is a small, elite team of engineers who've shipped production systems at scale. Built by engineers, for engineers.",
 };
-
-// ── About Page ───────────────────────────────────────────────────────────────
-// Sections: AboutHero → Mission → Team → Stats → Values → CTA
 
 export default function AboutPage() {
   return (
-    <div className="pt-16">
-      {/* TODO: AboutHero  — page hero */}
-      {/* TODO: Mission    — mission statement */}
-      {/* TODO: Team       — team member cards */}
-      {/* TODO: Stats      — clients / deploys / uptime counters */}
-      {/* TODO: Values     — company values */}
-      {/* TODO: CTA        — shared CTA section */}
-    </div>
+    <>
+      <AboutHero />
+      <Mission />
+      <Team />
+      <Stats />
+      <CTA />
+    </>
   );
 }

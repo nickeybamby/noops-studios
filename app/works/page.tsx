@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
+import { WorksHero }   from "@/components/sections/works/WorksHero";
+import { ProjectGrid } from "@/components/sections/works/ProjectGrid";
+import { CTA }         from "@/components/sections/CTA";
 
 export const metadata: Metadata = {
   title: "Works",
-  description: "Selected projects — real outcomes, modern stacks.",
+  description:
+    "Selected projects across DevOps, AI, cloud infrastructure, and product engineering. Real projects, real outcomes.",
 };
-
-// ── Works / Portfolio Page ───────────────────────────────────────────────────
-// Sections: WorksHero → ProjectGrid (filterable by tag) → CTA
 
 export default function WorksPage() {
   return (
-    <div className="pt-16">
-      {/* TODO: WorksHero    — page hero */}
-      {/* TODO: ProjectGrid  — filterable portfolio grid with stack tags */}
-      {/* TODO: CTA          — shared CTA section */}
-    </div>
+    <>
+      <WorksHero />
+      <ProjectGrid />
+      <CTA />
+    </>
   );
 }
